@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | AI-Based Medicine Advisory System{% endblock %}
+
+{% block content %}
+  <div class="text-center">
+    <h2 class="mb-3">Welcome to the AI-Based Medicine Advisory System</h2>
+    <p class="lead">This system uses AI to recommend alternative medicines based on your symptoms and health conditions.</p>
+
+    <img src="{{ url_for('c:\Users\pc\AppData\Local\Packages\MicrosoftWindows.Client.Core_cw5n1h2txyewy\TempState\ScreenClip\{0474BC08-36A1-4DAE-8E55-E0F9B4977FF4}.png) }}" 
+         alt="AI Medicine Advisor" 
+         class="img-fluid img-thumbnail shadow mt-4" 
+         style="max-width: 500px;">
+
+    <div class="mt-4">
+      <a href="/about" class="btn btn-primary me-2">Learn More</a>
+      <a href="/contact" class="btn btn-outline-secondary">Get in Touch</a>
+    </div>
+  </div>
+{% endblock %}
